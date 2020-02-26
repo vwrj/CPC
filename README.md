@@ -4,6 +4,4 @@ This repository was inspired by the paper [Data-Efficient Image Recognition with
 
 **Summary**: CPC encodes the input into a sequence of representations, then predicts future observations from past ones. 
 
-![alt text][logo]
-
-[logo]: https://github.com/vwrj/CPC/tree/master/imgs/cpc_latex_eqs.png "CPC"
+![CPC](imgs/cpc_latex_eqs.png)
