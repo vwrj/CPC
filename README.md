@@ -1,4 +1,13 @@
+### PyTorch implementation of CPC, V2
+
+This repository was inspired by the paper [Data-Efficient Image Recognition with Contrastive Predictive Coding](https://arxiv.org/abs/1905.09272). 
+
 **Summary**: CPC encodes the input into a sequence of representations, then predicts future observations from past ones. 
+
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
 * Using a neural network $f_{\theta}$, encode each patch $x_{i, j}$ (of an image) into a feature vector $z_{i, j} =
   f_{\theta} (x_{i, j})$ to obtain a grid of feature vectors $z$. Then, apply a masked convolution network $g_{\phi}$ to
 each feature vector to obtain a a context vector  $c_{i, j} = g_{\phi}(z_{i, j})$. 
